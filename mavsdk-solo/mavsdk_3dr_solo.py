@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from mavsdk import start_mavlink, connect
 
-start_mavlink(connection_url="udp://:14550")
+start_mavlink(connection_url="udp:127.0.0.1:14551")
 
 drone = connect(host="127.0.0.1")
 

@@ -1,0 +1,3 @@
+- There doesn't seem to be any designated mode change function
+- start_mavlink() should perhaps return some indicator of success?
+- 
